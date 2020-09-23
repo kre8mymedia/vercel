@@ -3,7 +3,7 @@
     <div>
       <logo />
       <h1 class="title">
-        nuxtjs
+        WELCOME TO THE NGAUGE DEMO ON VERCEL
       </h1>
       <h2 class="subtitle">
         My astonishing Nuxt.js project
@@ -36,7 +36,7 @@ export default {
     Logo
   },
   created() {
-    fetch('/myEnv')
+    fetch('/api/myEnv')
     .then(res => res.json())
     .then(data => console.log(data))
     .catch(err => console.log(err))
