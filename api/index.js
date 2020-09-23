@@ -8,10 +8,10 @@ var app = express();
  */
 if(process.env.NODE_ENV === "development") {
   var api_key = process.env.DEV_TOKEN;
-  var serverHost = `http://${process.env.API_DEV_URL}`;
+  var serverHost = `${process.env.API_DEV_URL}`;
 } else {
   var api_key = process.env.STAGING_TOKEN;
-  var serverHost = `https://${process.env.API_STAGING_URL}`;
+  var serverHost = `${process.env.API_STAGING_URL}`;
 }
 
 /**----------------------------------------

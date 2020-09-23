@@ -6,7 +6,7 @@
         WELCOME TO THE NGAUGE DEMO ON VERCEL
       </h1>
       <h2 class="subtitle">
-        My astonishing Nuxt.js project
+        This should change
       </h2>
       <div class="links">
         <a
